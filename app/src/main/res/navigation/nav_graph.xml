@@ -1,0 +1,14 @@
+<fragment android:id="@+id/photoGalleryFragment"
+    android:name="com.bignerdranch.andriod.nasaapi.PhotoGalleryFragment"
+    android:label="Photo Gallery"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <action
+        android:id="@+id/action_photoGalleryFragment_to_singlePhotoFragment"
+        app:destination="@id/singlePhotoFragment" />
+</fragment>
+
+<fragment
+android:id="@+id/singlePhotoFragment"
+android:name="com.bignerdranch.andriod.nasaapi.SinglePhotoFragment"
+android:label="Single Photo" />
